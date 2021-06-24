@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/* header start */
+header {
+  padding: 15px 0;
+  /* border: 1px solid; */
+}
+.container {
+  overflow: hidden;
+  width: 80%;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+}
+.logo {
+  float: left;
+  width: 20%;
+  /* border: 1px solid; */
+}
+.logo img {
+  width: 100%;
+}
+.menu {
+  float: right;
+  width: 75%;
+  /* border: 1px solid; */
+  margin-top: 10px;
+}
+.menu ul {
+  float: right;
+}
+.menu ul li {
+  list-style: none;
+  float: left;
+}
+.menu ul li a {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #787878;
+  text-decoration: none;
+  padding: 0 12px;
+  display: inline-block;
+  transition: 0.3s;
+}
+.menu ul li:last-child a {
+  padding-right: 0;
+}
+.menu ul li a:hover {
+  color: #b9485b;
+}
+/* header end */
+/* banner start  */
+.banner {
+  background-image: url(../images/banner1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+.b_content {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50%;
+  /* border: 1px solid; */
+  margin: 150px 0;
+}
+.b_content h1 {
+  font-family: ;
+  font-size: 55px;
+  color: white;
+  letter-spacing: 2px;
+  line-height: ;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+.b_content p {
+  font-size: 18px;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.b_content button {
+  width: 260px;
+  height: 50px;
+  background-color: #be2342;
+  border: none;
+  font-size: 16px;
+  color: white;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+/* banner end  */
+/* work start */
+.work {
+  padding: 50px 0;
+}
+.w_text {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  /* border: 1px solid; */
+}
+.w_text h1 {
+  font-size: 45px;
+  color: #101010;
+}
+.w_text p {
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 195px 40px;
+}
+.icon {
+  border: 1px solid;
+}
+.w_icon_img {
+  width: 25%;
+  margin: 0 auto;
+}
+.w_icon_img img {
+  width: 25%;
+}
+.w_icon_text {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 35px auto;
+  padding: 0px 12px;
+}
+/* work end */
